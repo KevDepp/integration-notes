@@ -1,0 +1,29 @@
+1
+00:00:00,000 --> 00:00:08,000
+Crossref is a public source of publication metadata and
+DOI identifiers.
+
+2
+00:00:08,000 --> 00:00:17,000
+We built one MCP server with research tools shared by
+Claude Code and Codex.
+
+3
+00:00:17,000 --> 00:00:27,000
+Compare two searches over ten years. These are actual
+Crossref matches.
+
+4
+00:00:27,000 --> 00:00:36,000
+Open a chart point to inspect real publications and
+verifiable DOIs.
+
+5
+00:00:36,000 --> 00:00:46,000
+Both assistants used the same tools and counts. Codex
+reused the dated cache.
+
+6
+00:00:46,000 --> 00:00:54,000
+One MCP integration. Multiple AI assistants. Search counts
+are not research quality.

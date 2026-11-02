@@ -1,0 +1,35 @@
+F04 · Secure MCP Access Lab · payroll MCP for several business customers · English · 111 seconds
+Approved diagram used unchanged (crops, zooms and pans only). Scenes 3–5 replay four headless claude -p sessions recorded on 2 November 2026
+from their stream.jsonl (exact prompts, tool calls, tool results and answers; timing condensed). €11,857 and +€213 come from two separate sessions.
+The OAuth + PKCE flow is run by a scripted test client against a local TEST provider; Claude does not log in.
+Fictional companies and payroll data · local lab · test OAuth, not production.
+Voice-over not recorded yet: the film is silent with burned-in captions; scripts/media/add-voice.py adds the narration.
+
+000.0–013.0s · scene 1 · Illustration (approved diagram) · ILLUSTRATION · approved F04 diagram, cropped and zoomed only
+013.0–025.0s · scene 2 · Illustration (approved diagram) · ILLUSTRATION · approved F04 diagram, cropped and zoomed only
+025.0–036.0s · scene 3 · Recorded Claude Code session — replay · RECORDED CLAUDE CODE SESSION — REPLAY · session 01 of 4 · 2 Nov 2026, 13:02 UTC
+036.0–047.0s · scene 3 · Recorded Claude Code session — replay · RECORDED CLAUDE CODE SESSION — REPLAY · session 04 of 4 · 2 Nov 2026, 13:07 UTC
+047.0–060.0s · scene 4 · Recorded Claude Code session — replay · RECORDED CLAUDE CODE SESSION — REPLAY · session 02 of 4 · 2 Nov 2026, 13:04 UTC
+060.0–065.5s · scene 4 · Recorded server audit · RECORDED SERVER AUDIT · session 02 · 2 Nov 2026, 13:04 UTC
+065.5–070.0s · scene 4 · Illustration (approved diagram) · ILLUSTRATION · approved F04 diagram, cropped and zoomed only
+070.0–084.0s · scene 5 · Recorded Claude Code session — replay · RECORDED CLAUDE CODE SESSION — REPLAY · session 03 of 4 · 2 Nov 2026, 13:06 UTC
+084.0–091.0s · scene 6 · Recorded test output · RECORDED TEST OUTPUT · 2 Nov 2026 · local lab
+091.0–097.0s · scene 6 · Recorded test output · RECORDED TEST OUTPUT · clean checkout · 2 Nov 2026
+097.0–106.0s · scene 7 · Illustration (approved diagram) · ILLUSTRATION · approved F04 diagram, cropped and zoomed only
+106.0–111.0s · scene 7 · Summary card · F04 · SECURE MCP ACCESS LAB · summary
+
+Narration and captions:
+
+Scene 1 (from 0.6s, target 9.5s): A payroll software provider serves many business customers. Each wants to ask an AI assistant about its own data, without exposing anyone else's.
+
+Scene 2 (from 13.6s, target 7.5s): Here, a bakery and a car garage use separate Claude sessions. Both connect through the same MCP access-control service.
+
+Scene 3 (from 25.6s, target 15.0s): The bakery asks about its payroll. In two separate real test sessions, Claude retrieves an October cost of eleven thousand, eight hundred and fifty-seven euros, and an increase of two hundred and thirteen euros over September.
+
+Scene 4 (from 47.6s, target 15.5s): But what happens if the bakery tries to access a garage employee's payslip? Claude makes the request, but the MCP server blocks it. No private data is revealed, and the attempt is recorded in the audit log.
+
+Scene 5 (from 70.6s, target 9.5s): Meanwhile, the garage uses its own Claude session to retrieve its five employees. It only receives the records it's authorized to see.
+
+Scene 6 (from 84.6s, target 11.0s): A scripted test client also verifies the local OAuth and PKCE flow before Claude receives its test token. Automated tests check that access restrictions are enforced.
+
+Scene 7 (from 97.6s, target 11.5s): One shared integration. Separate customer data. Access control enforced by the server. This is a local engineering demonstration using fictional payroll records, not a production deployment.

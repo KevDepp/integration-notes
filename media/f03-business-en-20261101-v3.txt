@@ -1,0 +1,33 @@
+F03 · MCP Approval Desk · English ·89seconds
+Illustrated business need followed by actual local acceptance recorded1November2026.
+Demo SDK client; automated QA reviewer; no manual human approval observed.
+Local SQLite effect; no ERP/GitHub write. Playback triggers no new business actions.
+Actual moving UI at1x; cuts between independent browser contexts. Approved/zero-task state held3.4seconds; final receipt held2/3seconds for reading. Last replay is a genuine crop of the recording.
+
+00–06s: Your business has workflows. You want AI to help run them.
+
+06–14s: But sensitive actions must still be approved independently.
+
+14–23s: MCP gives different assistants a shared interface to reusable tools.
+
+23–32s: Shared MCP tools prepare actions. Our separate service controls approval.
+
+32–41s: A demo MCP client reads a real public GitHub issue.
+
+41–49s: Preparing a follow-up creates no task.
+
+49–54s: The QA reviewer rejects Draft 1. No manual human approval observed.
+
+54–59s: Rejected means blocked. The MCP client cannot approve itself.
+
+59–63s: A different proposal. A new draft. Still no task.
+
+63–67s: The QA reviewer approves Draft 2. No manual human approval observed.
+
+67–71s: Approved, not executed. Still zero tasks.
+
+71–77s: Execution creates one local SQLite task. No ERP or GitHub write.
+
+77–84s: Retry: same receipt, one local SQLite task. No ERP or GitHub write.
+
+84–89s: Shared MCP tools. Independent control. A local proof of concept.

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "F04",
+    "featured": true,
+    "category": "MCP / AUTHORIZATION",
+    "title": {
+      "fr": "Un service MCP. Plusieurs clients. Des données privées.",
+      "en": "One MCP service. Many customers. Private data."
+    },
+    "problem": {
+      "fr": "Comment un éditeur SaaS de paie peut-il laisser chaque client interroger ses données avec Claude sans exposer celles des autres ?",
+      "en": "How can a payroll SaaS provider let each customer ask Claude about its own data without exposing anyone else's?"
+    },
+    "built": {
+      "fr": "J’ai construit un serveur MCP de paie multi-clients : de vraies sessions Claude lisent les données de leur entreprise, et le serveur refuse et journalise toute tentative vers une autre.",
+      "en": "I built a multi-tenant payroll MCP server: real Claude sessions read their own company's data, and the server refuses and audits any attempt to reach another company's."
+    },
+    "description": {
+      "fr": "Un éditeur de logiciel de paie donne à chaque entreprise cliente un accès IA à ses propres données, via un seul serveur MCP qui contrôle les accès.",
+      "en": "A payroll software provider gives each business customer AI access to its own data, through one MCP server that enforces access control."
+    },
+    "limits": {
+      "fr": "Entreprises et données de paie fictives, laboratoire local. OAuth de test (fournisseur local, client scripté), pas d’OAuth ni de sécurité de production certifiés. Quatre sessions Claude enregistrées, rejouées dans le film ; pas de mesure de fiabilité du modèle. Film sous-titré, sans voix off pour l’instant.",
+      "en": "Fictional companies and payroll data, local lab. Test OAuth (local provider, scripted client), not certified production OAuth or security. Four recorded Claude sessions, replayed in the film; model reliability is not measured. Captioned film, no voice-over yet."
+    },
+    "date": "2 NOV 2026",
+    "tags": [
+      "MCP Streamable HTTP",
+      "Claude Code",
+      "OAuth test + PKCE",
+      "Tenant isolation"
+    ],
+    "video": "media/f04-payroll-en-20261102.mp4",
+    "video_note": {
+      "fr": "Schéma approuvé (illustration), puis rejeu fidèle des sessions Claude Code enregistrées le 2 novembre, audit serveur et tests.",
+      "en": "Approved diagram (illustration), then faithful replays of Claude Code sessions recorded on 2 November, the server audit and tests."
+    },
+    "screenshot": "media/f04-payroll-en-20261102.png",
+    "transcript": "media/f04-payroll-en-20261102.txt",
+    "subtitles": "media/f04-payroll-en-20261102.srt",
+    "evidence": "evidence/f04-payroll-c62d3b70.json"
+  },
+  {
+    "id": "F01",
+    "category": "AI RESEARCH / SHARED MCP",
+    "title": {
+      "fr": "Un même MCP pour deux assistants.",
+      "en": "One MCP integration. Two AI assistants."
+    },
+    "problem": {
+      "fr": "Comment donner les mêmes outils de recherche à plusieurs assistants IA?",
+      "en": "How can multiple AI assistants use the same research tools?"
+    },
+    "built": {
+      "fr": "J’ai développé un serveur MCP Crossref partagé par Claude Code et Codex, avec courbes datées et DOI vérifiables.",
+      "en": "I built a shared Crossref MCP server for Claude Code and Codex, with dated charts and verifiable DOIs."
+    },
+    "description": {
+      "fr": "AI Research Radar : choisissez Claude Code ou Codex, comparez des recherches bibliographiques par année et ouvrez les vrais DOI. Une question de suivi recalcule le graphique via le même MCP Crossref.",
+      "en": "AI Research Radar: choose Claude Code or Codex, compare bibliographic searches by year and open real DOIs. A follow-up rebuilds the chart through the same Crossref MCP."
+    },
+    "limits": {
+      "fr": "Recherche lexicale Crossref : couverture et pertinence dépendent des mots clés. Années complètes, cache daté six heures, budgets locaux et quotas existants. Aucune exhaustivité, qualité scientifique ou économie chiffrée garantie.",
+      "en": "Lexical Crossref search: coverage and relevance depend on keywords. Complete years, dated six-hour cache, local budgets and existing quotas. No guaranteed completeness, scientific quality or quantified savings."
+    },
+    "date": "31 OCT 2026",
+    "tags": [
+      "Claude Code / Codex",
+      "Crossref",
+      "MCP"
+    ],
+    "video": "media/f01-english-20261031.mp4",
+    "video_note": {
+      "fr": "Montage anglais d'une recette enregistrée le 31 octobre.",
+      "en": "Edited replay of a test recorded on 31 October."
+    },
+    "screenshot": "media/f01-english-20261031.png",
+    "transcript": "media/f01-english-20261031.txt",
+    "subtitles": "media/f01-english-20261031.srt",
+    "evidence": "evidence/f01-radar.json"
+  },
+  {
+    "id": "F02",
+    "category": "API / RELIABILITY",
+    "title": {
+      "fr": "De GitHub au tableau, sans doublon.",
+      "en": "GitHub to Google Sheets, without duplicates."
+    },
+    "problem": {
+      "fr": "Comment tenir un tableau à jour sans copier les tickets ni masquer les pannes?",
+      "en": "How can a team keep its Sheet up to date without copying issues or hiding failures?"
+    },
+    "built": {
+      "fr": "J’ai développé une intégration REST avec aperçu, différences, synchronisation Google Sheets réelle et reprise vérifiée.",
+      "en": "I built a REST integration with previews, diffs, real Google Sheets synchronization and verified recovery."
+    },
+    "description": {
+      "fr": "147 issues GitHub publiques synchronisées dans SQLite et un vrai Google Sheets privé. Aperçu, différences, reprise après erreur et second passage sans réécriture ni doublon.",
+      "en": "147 public GitHub issues synced to SQLite and a real private Google Sheet. Preview, diff, error recovery and a second run without rewrites or duplicates."
+    },
+    "limits": {
+      "fr": "Source partielle bornée à5 pages/500éléments bruts. Un seul writer local ; SQLite et Sheets ne partagent pas de transaction, édition Google concurrente non atomiquement exclue. Pannes/variation de source simulées et étiquetées. GitHub en lecture seule, dépôt privé403 non bloquant.",
+      "en": "Partial source: at most 5 pages and 500 raw GitHub items. One local writer; no distributed SQLite/Sheets transaction or Google compare-and-swap. Failures and the one-issue change are labelled simulations. Read-only GitHub; private repository 403 is non-blocking."
+    },
+    "date": "31 OCT 2026",
+    "tags": [
+      "GitHub API",
+      "Google Sheets",
+      "SQLite / CSV"
+    ],
+    "video": "media/f02-english-20261031.mp4",
+    "video_note": {
+      "fr": "Montage anglais d'une recette enregistrée le 31 octobre.",
+      "en": "Edited replay of a test recorded on 31 October."
+    },
+    "screenshot": "media/f02-english-20261031.png",
+    "transcript": "media/f02-english-20261031.txt",
+    "subtitles": "media/f02-english-20261031.srt",
+    "evidence": "evidence/f02-sheets-4f754ce2.json"
+  },
+  {
+    "id": "F03",
+    "category": "MCP / APPROVAL",
+    "title": {
+      "fr": "Préparer, décider, appliquer une fois.",
+      "en": "Propose. Review. Execute once."
+    },
+    "problem": {
+      "fr": "Comment donner des outils communs aux assistants IA tout en gardant les décisions sensibles sous contrôle indépendant?",
+      "en": "How can AI assistants share tools while sensitive actions stay under independent control?"
+    },
+    "built": {
+      "fr": "J’ai développé des outils MCP réutilisables et un contrôle d’approbation séparé : propositions sans effet, exécution locale unique et reçu stable.",
+      "en": "I built reusable MCP tools and a separate approval control: proposals without effects, one local execution and a stable receipt."
+    },
+    "description": {
+      "fr": "Lire un ticket public, préparer un suivi et attendre une décision indépendante. L’action autorisée crée une seule tâche locale ; les relances retrouvent le même reçu.",
+      "en": "Read a public issue, prepare a follow-up and wait for an independent decision. The approved action creates one local task; retries return the same receipt."
+    },
+    "limits": {
+      "fr": "Action SQLite locale uniquement. Parcours opérateur automatisé en recette, pas une validation humaine manuelle observée. Pas de GitHub POST, ERP, OAuth ou isolation OS entre utilisateurs hostiles.",
+      "en": "Local SQLite action only. The operator workflow is automated in acceptance, not an observed human manual approval. No GitHub POST, ERP, OAuth or hostile OS-user isolation."
+    },
+    "date": "1 NOV 2026",
+    "tags": [
+      "MCP SDK",
+      "GitHub API",
+      "Independent reviewer"
+    ],
+    "video": "media/f03-business-en-20261101-v3.mp4",
+    "video_note": {
+      "fr": "Besoin métier illustré, puis capture réelle du prototype du 1er novembre.",
+      "en": "Illustrated business need, then a real prototype recording from 1 November."
+    },
+    "screenshot": "media/f03-business-en-20261101-v3.png",
+    "transcript": "media/f03-business-en-20261101-v3.txt",
+    "subtitles": "media/f03-business-en-20261101-v3.srt",
+    "evidence": "evidence/f03-ux.json"
+  }
+]

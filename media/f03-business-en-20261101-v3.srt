@@ -1,0 +1,58 @@
+1
+00:00:00,000 --> 00:00:06,000
+Your business has workflows. You want AI to help run them.
+
+2
+00:00:06,000 --> 00:00:14,000
+But sensitive actions must still be approved independently.
+
+3
+00:00:14,000 --> 00:00:23,000
+MCP gives different assistants a shared interface to reusable tools.
+
+4
+00:00:23,000 --> 00:00:32,000
+Shared MCP tools prepare actions. Our separate service controls
+approval.
+
+5
+00:00:32,000 --> 00:00:41,000
+A demo MCP client reads a real public GitHub issue.
+
+6
+00:00:41,000 --> 00:00:49,000
+Preparing a follow-up creates no task.
+
+7
+00:00:49,000 --> 00:00:54,000
+The QA reviewer rejects Draft 1. No manual human approval
+observed.
+
+8
+00:00:54,000 --> 00:00:59,000
+Rejected means blocked. The MCP client cannot approve itself.
+
+9
+00:00:59,000 --> 00:01:03,000
+A different proposal. A new draft. Still no task.
+
+10
+00:01:03,000 --> 00:01:07,000
+The QA reviewer approves Draft 2. No manual human approval
+observed.
+
+11
+00:01:07,000 --> 00:01:11,000
+Approved, not executed. Still zero tasks.
+
+12
+00:01:11,000 --> 00:01:17,000
+Execution creates one local SQLite task. No ERP or GitHub write.
+
+13
+00:01:17,000 --> 00:01:24,000
+Retry: same receipt, one local SQLite task. No ERP or GitHub write.
+
+14
+00:01:24,000 --> 00:01:29,000
+Shared MCP tools. Independent control. A local proof of concept.

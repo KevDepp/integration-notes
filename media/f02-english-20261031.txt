@@ -1,0 +1,16 @@
+F02 · English demo · 56 seconds
+Edited replay of verified acceptance recorded31October2026. No new AI/API call, sync, approval or execution.
+
+00–08s: Keep GitHub issues and a Google Sheet synchronized, without manual copying.
+
+08–16s: We built a REST integration with a preview. No target is changed yet.
+
+16–24s: An explicit sync wrote 147 issues to the real test Sheet, then read them back.
+
+24–32s: Second run: 0 created, 0 updated, 147 unchanged. No duplicate rows.
+
+32–40s: A labelled synthetic title change affects one existing issue, not a new row.
+
+40–48s: Simulated failure. Local and Sheet status stay separate; recovery is explicit.
+
+48–56s: Recovery verified: one row updated, no duplicate. REST and Sheets, not MCP.

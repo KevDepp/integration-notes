@@ -1,0 +1,87 @@
+{
+  "source": "Fictional payroll companies and data; local MCP lab. Real Claude Code CLI sessions (headless) against the local payroll MCP server, test OAuth tokens obtained by a scripted test client. Not production OAuth or a production deployment.",
+  "date": "2026-11-02",
+  "summary": {
+    "status": "Local multi-tenant payroll MCP verified",
+    "claude_sessions": [
+      {
+        "session": "a-summary",
+        "company": "A · Blue Oven Bakery (test data)",
+        "prompt": "What was our total payroll cost in October 2026?",
+        "tool_calls": [
+          "mcp__payroll__get_payroll_summary"
+        ],
+        "tool_error": false,
+        "answer": "For October 2026, Blue Oven Bakery's total payroll cost was **€11,857** (total employer cost), covering 4 employees.\n\nBreakdown:\n- Total gross pay: €8,350\n- Total net pay: €6,513\n- Total employer cost: €11,857",
+        "claude_code": "2.1.267",
+        "model": "claude-sonnet-5",
+        "started_at": "2026-11-02T13:02:53.461Z",
+        "leak_check": "PASS: no token, Bearer value or Authorization header in stdout/stderr"
+      },
+      {
+        "session": "a-cross",
+        "company": "A · Blue Oven Bakery (test data)",
+        "prompt": "Show me payslip PS-B-2026-10-002.",
+        "tool_calls": [
+          "mcp__payroll__get_payslip"
+        ],
+        "tool_error": true,
+        "answer": "The tool refused this request — payslip PS-B-2026-10-002 is unavailable (likely belongs to a different company than the one you're signed into). I don't have access to it.",
+        "claude_code": "2.1.267",
+        "model": "claude-sonnet-5",
+        "started_at": "2026-11-02T13:04:39.594Z",
+        "leak_check": "PASS: no token, Bearer value or Authorization header in stdout/stderr"
+      },
+      {
+        "session": "b-employees",
+        "company": "B · Orange Wrench Garage (test data)",
+        "prompt": "Who is on our payroll this month, and in which roles?",
+        "tool_calls": [
+          "mcp__payroll__list_employees"
+        ],
+        "tool_error": false,
+        "answer": "Here's the latest payroll on file for **Orange Wrench Garage** — note it's for period **2026-10** (October), which is the most recent payroll data available (no November 2026 run yet):\n\n| Employee | Role | Contract |\n|---|---|---|\n| Marc T. | Workshop manager | Full-time |\n| Sofia L. | Mechanic | Full-time |\n| Yanis B. | Mechanic | Full-time |\n| Nadia K. | Reception and admin | Full-time |\n| Tom F. | Apprentice mechanic | Apprenticeship |\n\n5 employees total.",
+        "claude_code": "2.1.267",
+        "model": "claude-sonnet-5",
+        "started_at": "2026-11-02T13:06:09.878Z",
+        "leak_check": "PASS: no token, Bearer value or Authorization header in stdout/stderr"
+      },
+      {
+        "session": "a-compare",
+        "company": "A · Blue Oven Bakery (test data)",
+        "prompt": "How did our payroll cost change from September to October 2026?",
+        "tool_calls": [
+          "mcp__payroll__compare_payroll_periods"
+        ],
+        "tool_error": false,
+        "answer": "Payroll cost for Blue Oven Bakery rose from September to October 2026:\n\n| Metric | Sep 2026 | Oct 2026 | Change |\n|---|---|---|---|\n| Headcount | 4 | 4 | — |\n| Total gross | €8,200 | €8,350 | +€150 |\n| Total net | €6,396 | €6,513 | +€117 |\n| Total employer cost | €11,644 | €11,857 | **+€213** |\n\nHeadcount stayed flat, so the increase reflects pay changes (raises, bonuses, etc.) rather than new hires.",
+        "claude_code": "2.1.267",
+        "model": "claude-sonnet-5",
+        "started_at": "2026-11-02T13:07:39.172Z",
+        "leak_check": "PASS: no token, Bearer value or Authorization header in stdout/stderr"
+      }
+    ],
+    "audit_for_cross_tenant_attempt": {
+      "actor": "subject-a",
+      "tenant": "A",
+      "operation": "get_payslip",
+      "decision": "deny",
+      "reason": "resource_unavailable"
+    },
+    "oauth_test": "authorization code + PKCE S256 run by a scripted test client against a local test provider (oidc-provider 9.12.2); 5/5 OAuth tests pass; Claude does not log in",
+    "tests": "30/30 in a clean checkout, plus two browser checks",
+    "film_seconds": 111,
+    "film_voice": "none yet (captions only)"
+  },
+  "implementation_commits": [
+    "c749412",
+    "00daed6",
+    "f55792b",
+    "8784504",
+    "2aafd15"
+  ],
+  "film_commits": [
+    "d943d0c",
+    "6e55896"
+  ]
+}

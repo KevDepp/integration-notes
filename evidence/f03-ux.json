@@ -1,0 +1,50 @@
+{
+  "source": "Actual GitHub public GET, real MCP SDK stdio; independent automated reviewer. No manual human approval observed.",
+  "date": "2026-10-31T12:53:16.924Z",
+  "implementation_commit": "045f221cea2e44fdd975781e958144ca3b83c0d0",
+  "summary": {
+    "status": "Local technical workflow verified; manual human acceptance PARTIAL",
+    "client": "MCP SDK demonstration client, not an AI conversation",
+    "source_readback": {
+      "url": "https://api.github.com/repos/pallets/flask/issues/6175",
+      "id": 6058362036,
+      "number": 6175,
+      "title": "[rejected AI] Error handling docs examples use `request.arg` instead of `request.args`",
+      "observed_at": "2026-10-31T12:51:38.257Z",
+      "equal": true
+    },
+    "database_counts": {
+      "sources": 1,
+      "drafts": 2,
+      "decisions": 2,
+      "tasks": 1,
+      "receipts": 1,
+      "audit": 8
+    },
+    "decisions": [
+      "REJECTED",
+      "APPROVED"
+    ],
+    "stable_receipt": {
+      "receipt_id": "c3645d35-b09e-4588-a921-522fe84f5cd2",
+      "task_id": "934d6a27-d2e5-478d-8a44-1279bc86f815",
+      "draft_id": "389b7bf8-0d60-4232-9000-82c154612eb5",
+      "idempotency_key": "6a8bc075-8643-423a-a9e9-080eb09d0460",
+      "payload_hash": "3e6f491d3342ac91bc3f54a5fb3d7342b1d0ab64aaa7409d04fe4d8e4f07e3c4",
+      "approver": "operator:coordinator-automated-qa",
+      "executed_by": "agent:local-mcp",
+      "created_at": "2026-10-31T12:51:43.603Z",
+      "effect": "LOCAL_SQLITE_FOLLOWUP",
+      "external_write": false
+    },
+    "tests": 23,
+    "browser_checks": [
+      "Real public GitHub issue read through SDK and independently reconciled; no external write",
+      "Prepared and rejected proposals produce zero tasks; real MCP execution refuses both",
+      "Separate automated decision has no effect until execution; one task and stable receipt across browser and two concurrent OS SDK clients",
+      "FR/EN, actual 390px visitor/reviewer layout and keyboard focus"
+    ],
+    "constraints": "No visitor/operator credential transfer; approval cannot be called by MCP; only local SQLite effect. No GitHub POST."
+  },
+  "evidence_commit": "4e808f269a36f57b2c2202c65371b84668a2178c"
+}

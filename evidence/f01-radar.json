@@ -1,0 +1,593 @@
+{
+  "source": "Actual new Radar browser/CLI/MCP runs dated 31 October 2026. Stored evidence, not an answer to a new question.",
+  "implementation_commit": "92e3c464bd7fbc6f84b0db612c586dc660cd2c1a",
+  "hosts": [
+    {
+      "name": "Claude Code",
+      "date": "2026-10-31T12:22:32.383Z",
+      "mode": "live",
+      "calls": [
+        {
+          "tool": "compare_publication_trends",
+          "period": [
+            2016,
+            2025
+          ]
+        },
+        {
+          "tool": "compare_publication_trends",
+          "period": [
+            2021,
+            2025
+          ]
+        }
+      ],
+      "chart": {
+        "status": "ok",
+        "start_year": 2016,
+        "end_year": 2025,
+        "metric": "crossref_matching_references",
+        "topics": [
+          {
+            "label": "sodium ion battery",
+            "query": "sodium ion battery",
+            "points": [
+              {
+                "year": 2016,
+                "total_results": 27093,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2016-01-01%2Cuntil-pub-date%3A2016-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:40.347Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2017,
+                "total_results": 26496,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2017-01-01%2Cuntil-pub-date%3A2017-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:41.057Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2018,
+                "total_results": 29076,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2018-01-01%2Cuntil-pub-date%3A2018-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:42.158Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2019,
+                "total_results": 31964,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2019-01-01%2Cuntil-pub-date%3A2019-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:43.168Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2020,
+                "total_results": 35125,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2020-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:44.591Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2021,
+                "total_results": 37264,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:45.643Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2022,
+                "total_results": 42429,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.406Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2023,
+                "total_results": 46301,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.992Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2024,
+                "total_results": 54953,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:48.693Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2025,
+                "total_results": 61952,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:49.784Z",
+                "cache_hit": false
+              }
+            ]
+          },
+          {
+            "label": "thermal energy storage",
+            "query": "thermal energy storage",
+            "points": [
+              {
+                "year": 2016,
+                "total_results": 126351,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2016-01-01%2Cuntil-pub-date%3A2016-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:50.874Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2017,
+                "total_results": 139058,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2017-01-01%2Cuntil-pub-date%3A2017-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:52.144Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2018,
+                "total_results": 148075,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2018-01-01%2Cuntil-pub-date%3A2018-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:54.759Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2019,
+                "total_results": 159279,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2019-01-01%2Cuntil-pub-date%3A2019-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:55.246Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2020,
+                "total_results": 171323,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2020-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:56.025Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2021,
+                "total_results": 186641,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:57.192Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2022,
+                "total_results": 205774,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:58.545Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2023,
+                "total_results": 222417,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:59.689Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2024,
+                "total_results": 261803,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:00.715Z",
+                "cache_hit": false
+              },
+              {
+                "year": 2025,
+                "total_results": 289167,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:02.413Z",
+                "cache_hit": false
+              }
+            ]
+          }
+        ],
+        "collected_at": "2026-10-31T12:23:02.483Z",
+        "warnings": [
+          "Counts are Crossref matching references for the exact bibliographic query and inclusive publication-year filter; coverage and metadata can change. Counts do not measure scientific quality or exhaustive research activity."
+        ]
+      },
+      "followup_chart": {
+        "status": "ok",
+        "start_year": 2021,
+        "end_year": 2025,
+        "metric": "crossref_matching_references",
+        "topics": [
+          {
+            "label": "sodium ion battery",
+            "query": "sodium ion battery",
+            "points": [
+              {
+                "year": 2021,
+                "total_results": 37264,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:45.643Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2022,
+                "total_results": 42429,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.406Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2023,
+                "total_results": 46301,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.992Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2024,
+                "total_results": 54953,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:48.693Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2025,
+                "total_results": 61952,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:49.784Z",
+                "cache_hit": true
+              }
+            ]
+          },
+          {
+            "label": "thermal energy storage",
+            "query": "thermal energy storage",
+            "points": [
+              {
+                "year": 2021,
+                "total_results": 186641,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:57.192Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2022,
+                "total_results": 205774,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:58.545Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2023,
+                "total_results": 222417,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:59.689Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2024,
+                "total_results": 261803,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:00.715Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2025,
+                "total_results": 289167,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:02.413Z",
+                "cache_hit": true
+              }
+            ]
+          }
+        ],
+        "collected_at": "2026-10-31T12:23:40.290Z",
+        "warnings": [
+          "Counts are Crossref matching references for the exact bibliographic query and inclusive publication-year filter; coverage and metadata can change. Counts do not measure scientific quality or exhaustive research activity.",
+          "Cached counts retain their original source observation time (maximum age six hours)."
+        ]
+      },
+      "source_count_readback": {
+        "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+        "source_count": 61952,
+        "independent_total_results": 61952,
+        "observed_at": "2026-10-31T12:23:28.390Z",
+        "equal": true
+      }
+    },
+    {
+      "name": "Codex CLI",
+      "date": "2026-10-31T12:25:15.120Z",
+      "mode": "live",
+      "calls": [
+        {
+          "tool": "compare_publication_trends",
+          "period": [
+            2016,
+            2025
+          ]
+        },
+        {
+          "tool": "compare_publication_trends",
+          "period": [
+            2021,
+            2025
+          ]
+        }
+      ],
+      "chart": {
+        "status": "ok",
+        "start_year": 2016,
+        "end_year": 2025,
+        "metric": "crossref_matching_references",
+        "topics": [
+          {
+            "label": "sodium ion battery",
+            "query": "sodium ion battery",
+            "points": [
+              {
+                "year": 2016,
+                "total_results": 27093,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2016-01-01%2Cuntil-pub-date%3A2016-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:40.347Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2017,
+                "total_results": 26496,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2017-01-01%2Cuntil-pub-date%3A2017-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:41.057Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2018,
+                "total_results": 29076,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2018-01-01%2Cuntil-pub-date%3A2018-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:42.158Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2019,
+                "total_results": 31964,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2019-01-01%2Cuntil-pub-date%3A2019-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:43.168Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2020,
+                "total_results": 35125,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2020-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:44.591Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2021,
+                "total_results": 37264,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:45.643Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2022,
+                "total_results": 42429,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.406Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2023,
+                "total_results": 46301,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.992Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2024,
+                "total_results": 54953,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:48.693Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2025,
+                "total_results": 61952,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:49.784Z",
+                "cache_hit": true
+              }
+            ]
+          },
+          {
+            "label": "thermal energy storage",
+            "query": "thermal energy storage",
+            "points": [
+              {
+                "year": 2016,
+                "total_results": 126351,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2016-01-01%2Cuntil-pub-date%3A2016-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:50.874Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2017,
+                "total_results": 139058,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2017-01-01%2Cuntil-pub-date%3A2017-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:52.144Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2018,
+                "total_results": 148075,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2018-01-01%2Cuntil-pub-date%3A2018-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:54.759Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2019,
+                "total_results": 159279,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2019-01-01%2Cuntil-pub-date%3A2019-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:55.246Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2020,
+                "total_results": 171323,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2020-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:56.025Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2021,
+                "total_results": 186641,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:57.192Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2022,
+                "total_results": 205774,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:58.545Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2023,
+                "total_results": 222417,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:59.689Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2024,
+                "total_results": 261803,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:00.715Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2025,
+                "total_results": 289167,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:02.413Z",
+                "cache_hit": true
+              }
+            ]
+          }
+        ],
+        "collected_at": "2026-10-31T12:25:36.350Z",
+        "warnings": [
+          "Counts are Crossref matching references for the exact bibliographic query and inclusive publication-year filter; coverage and metadata can change. Counts do not measure scientific quality or exhaustive research activity.",
+          "Cached counts retain their original source observation time (maximum age six hours)."
+        ]
+      },
+      "followup_chart": {
+        "status": "ok",
+        "start_year": 2021,
+        "end_year": 2025,
+        "metric": "crossref_matching_references",
+        "topics": [
+          {
+            "label": "sodium ion battery",
+            "query": "sodium ion battery",
+            "points": [
+              {
+                "year": 2021,
+                "total_results": 37264,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:45.643Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2022,
+                "total_results": 42429,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.406Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2023,
+                "total_results": 46301,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:47.992Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2024,
+                "total_results": 54953,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:48.693Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2025,
+                "total_results": 61952,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:49.784Z",
+                "cache_hit": true
+              }
+            ]
+          },
+          {
+            "label": "thermal energy storage",
+            "query": "thermal energy storage",
+            "points": [
+              {
+                "year": 2021,
+                "total_results": 186641,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2021-01-01%2Cuntil-pub-date%3A2021-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:57.192Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2022,
+                "total_results": 205774,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:58.545Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2023,
+                "total_results": 222417,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=0",
+                "observed_at": "2026-10-31T12:22:59.689Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2024,
+                "total_results": 261803,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:00.715Z",
+                "cache_hit": true
+              },
+              {
+                "year": 2025,
+                "total_results": 289167,
+                "source_url": "https://api.crossref.org/works?query.bibliographic=thermal+energy+storage&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+                "observed_at": "2026-10-31T12:23:02.413Z",
+                "cache_hit": true
+              }
+            ]
+          }
+        ],
+        "collected_at": "2026-10-31T12:26:14.920Z",
+        "warnings": [
+          "Counts are Crossref matching references for the exact bibliographic query and inclusive publication-year filter; coverage and metadata can change. Counts do not measure scientific quality or exhaustive research activity.",
+          "Cached counts retain their original source observation time (maximum age six hours)."
+        ]
+      },
+      "source_count_readback": {
+        "source_url": "https://api.crossref.org/works?query.bibliographic=sodium+ion+battery&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=0",
+        "source_count": 61952,
+        "independent_total_results": 61952,
+        "observed_at": "2026-10-31T12:25:56.701Z",
+        "equal": true
+      }
+    }
+  ],
+  "summary": {
+    "status": "local live verified in two hosts",
+    "core_tests": 48,
+    "gateway_tests": 9,
+    "real_hosts": [
+      "Claude Code 2.1.267",
+      "Codex CLI 0.149.0"
+    ],
+    "comparison": "Two exact queries, 2016–2025, then contextual 2021–2025; 20 initial values equal across hosts.",
+    "cache": "Claude collected 20 values; Codex reused these real cached observations. Drill-down and independent HTTP readbacks each used real Crossref GET.",
+    "limits": "Lexical Crossref matches, not scientific quality, exhaustive research or financial ROI. First attempt 429 retained; one HTTP at a time, 1100 ms pacing, no automatic host retry."
+  }
+}

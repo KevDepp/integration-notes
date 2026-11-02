@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-31T18:56:34.744Z",
+  "source": "Actual public GitHub GET and private dedicated Google Sheets API writes/readback. Faults and single-ID variation explicitly synthetic.",
+  "implementation_commit": "91d2e8e9905122a9b56eeeb3475834d8742977ad",
+  "summary": {
+    "status": "Local GitHub/SQLite/Sheets/CSV workflow verified",
+    "real_source": {
+      "repo": "pallets/flask",
+      "pages": 5,
+      "raw_items": 500,
+      "pull_requests_excluded": 353,
+      "issues": 147,
+      "partial_snapshot": true
+    },
+    "first_sheets_sync": {
+      "create": 147,
+      "update": 0,
+      "unchanged": 0
+    },
+    "second_sheets_sync": {
+      "create": 0,
+      "update": 0,
+      "unchanged": 147
+    },
+    "same_run_recovery_after_simulated_503": {
+      "create": 0,
+      "update": 1,
+      "unchanged": 146
+    },
+    "final_rows": 147,
+    "duplicate_business_keys": 0,
+    "formulas": 0,
+    "private_workbook": true,
+    "old_probe_unchanged": true,
+    "credential_file_unchanged": true,
+    "source_writes": 0,
+    "tests": 43,
+    "video_seconds": 88.6,
+    "browser_checks": [
+      "Explicit synthetic source503 fails before either target is changed",
+      "Actual public GitHub preview preserves SQLite and Sheets; explicit sync creates and independently reads the dedicated Sheets table",
+      "Second real source collection and sync retain stable unique keys in both targets",
+      "One explicitly synthetic source change updates the same ID; simulated Sheets503 leaves local/remote status distinct, explicit resume and native readback recover without duplication",
+      "Actual table/diff/history/export, FR/EN,390px and keyboard navigation",
+      "A final normal real-source sync restores public values; probe cells/privacy/credential unchanged, no formula or duplicate key"
+    ],
+    "limits": "Single trusted local writer, no distributed transaction or Google CAS. No GitHub write/private repository; synthetic variation and failures are explicitly labelled."
+  }
+}

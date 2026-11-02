@@ -1,0 +1,14 @@
+F01 · English demo · 54 seconds
+Edited replay of verified acceptance recorded31October2026. No new AI/API call, sync, approval or execution.
+
+00–08s: Crossref is a public source of publication metadata and DOI identifiers.
+
+08–17s: We built one MCP server with research tools shared by Claude Code and Codex.
+
+17–27s: Compare two searches over ten years. These are actual Crossref matches.
+
+27–36s: Open a chart point to inspect real publications and verifiable DOIs.
+
+36–46s: Both assistants used the same tools and counts. Codex reused the dated cache.
+
+46–54s: One MCP integration. Multiple AI assistants. Search counts are not research quality.
