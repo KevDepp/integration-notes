@@ -20,8 +20,8 @@
       "en": "A payroll software provider gives each business customer AI access to its own data, through one MCP server that enforces access control."
     },
     "limits": {
-      "fr": "Entreprises et données de paie fictives, laboratoire local. OAuth de test (fournisseur local, client scripté), pas d’OAuth ni de sécurité de production certifiés. Quatre sessions Claude enregistrées, rejouées dans le film ; pas de mesure de fiabilité du modèle. Film sous-titré, sans voix off pour l’instant.",
-      "en": "Fictional companies and payroll data, local lab. Test OAuth (local provider, scripted client), not certified production OAuth or security. Four recorded Claude sessions, replayed in the film; model reliability is not measured. Captioned film, no voice-over yet."
+      "fr": "Entreprises et données de paie fictives, laboratoire local. OAuth de test (fournisseur local, client scripté), pas d’OAuth ni de sécurité de production certifiés. Quatre sessions Claude enregistrées, rejouées dans le film ; pas de mesure de fiabilité du modèle. Voix off anglaise générée par synthèse vocale (Gemini TTS), film sous-titré.",
+      "en": "Fictional companies and payroll data, local lab. Test OAuth (local provider, scripted client), not certified production OAuth or security. Four recorded Claude sessions, replayed in the film; model reliability is not measured. English narration generated with text-to-speech (Gemini TTS); captioned film."
     },
     "date": "2 NOV 2026",
     "tags": [
@@ -30,7 +30,7 @@
       "OAuth test + PKCE",
       "Tenant isolation"
     ],
-    "video": "media/f04-payroll-en-20261102.mp4",
+    "video": "media/f04-payroll-en-20261102-voice.mp4",
     "video_note": {
       "fr": "Schéma approuvé (illustration), puis rejeu fidèle des sessions Claude Code enregistrées le 2 novembre, audit serveur et tests.",
       "en": "Approved diagram (illustration), then faithful replays of Claude Code sessions recorded on 2 November, the server audit and tests."

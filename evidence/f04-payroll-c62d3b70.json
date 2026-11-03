@@ -71,7 +71,7 @@
     "oauth_test": "authorization code + PKCE S256 run by a scripted test client against a local test provider (oidc-provider 9.12.2); 5/5 OAuth tests pass; Claude does not log in",
     "tests": "30/30 in a clean checkout, plus two browser checks",
     "film_seconds": 111,
-    "film_voice": "none yet (captions only)"
+    "film_voice": "English narration, Gemini TTS, one recording split per paragraph and aligned to the burned-in captions (2026-11-03); picture unchanged"
   },
   "implementation_commits": [
     "c749412",
